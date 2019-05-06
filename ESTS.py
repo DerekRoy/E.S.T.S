@@ -26,12 +26,12 @@ class SpeechTranslationSentiment:
         #API credentials and information [Edit this for your specific account]
         self.language_translator = LanguageTranslatorV3(
             version='2018-05-01',
-            iam_apikey='',#Enter API Kkey HERE!
+            iam_apikey='',#Enter API Key HERE!
             url='https://gateway.watsonplatform.net/language-translator/api')
 
         self.natural_language_understanding = NaturalLanguageUnderstandingV1(
             version='2018-11-16',
-            iam_apikey='',#Enter API Kkey HERE!
+            iam_apikey='',#Enter API Key HERE!
             url='https://gateway.watsonplatform.net/natural-language-understanding/api')
 
         self.w = w
