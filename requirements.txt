@@ -1,0 +1,10 @@
+tensorflow
+pyaudio
+websocket_client==0.48.0
+opencv-python
+watson_developer_cloud
+imutils
+keras 
+pillow
+arabic_reshaper
+python-bidi
