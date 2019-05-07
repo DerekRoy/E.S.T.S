@@ -9,9 +9,9 @@
 
 **Set up your audio drivers:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Mac `brew install portaudio` Further instructions [here](http://macappstore.org/portaudio/)
+Mac `brew install portaudio` Further instructions [here](http://macappstore.org/portaudio/).
 
-&nbsp;&nbsp;&nbsp;&nbsp;Ubuntu `sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg libav-tools`
+Ubuntu `sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg libav-tools`
 
 **Upgrade/Get Pip:**
 
@@ -21,9 +21,11 @@
 
 **Install dependencies:**
 
-nbsp;nbsp;nbsp;nbsp;`sudo pip install -r requirements.txt`
+&nbsp;&nbsp;&nbsp;&nbsp;`sudo pip install -r requirements.txt`
 
 ## Getting Watson Studio Services 
 
 Time to set up Watson Studio. Go to https://dataplatform.cloud.ibm.com/ and sign up for the free trial. This will give you access to the service for 1 month free. 
+
+![Sign up page for Watson Studio](/images/Picture1.png)
 
