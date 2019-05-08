@@ -1,5 +1,5 @@
 # ESTS
-&nbsp;&nbsp;&nbsp;&nbsp;This is a demo developed using an emotion detector from <a href="www.pyimagesearch.com" target="blank">Pyimagesearch</a>, and [Watson Studio](www.ibm.com/Watson/Studio) speech to text, translation, and sentiment analysis. This repository contains the project skeleton with the emotion detector, and the watson keys removed. The read me file will explain how to set up watson, and where to learn about the emotion detector. 
+&nbsp;&nbsp;&nbsp;&nbsp;This is a demo developed using an emotion detector from [Watson Studio](www.ibm.com/Watson/Studio), and [Watson Studio](www.ibm.com/Watson/Studio) speech to text, translation, and sentiment analysis. This repository contains the project skeleton with the emotion detector, and the watson keys removed. The read me file will explain how to set up watson, and where to learn about the emotion detector. 
 
 [Video of the Demo](https://youtu.be/VGxX9EylJA8)
 
@@ -45,20 +45,37 @@ After creating the instance you will be redirected to the services getting start
 
 This page is important to keep open as we will be using the API Key later.
 
-**TO BE CONTINUED Skeleton:** 
-right click open search in new tab for language translation, and natural language understanding 
-create the resource and go to manage tab for these resources 
-add the proper credentials to line 29 and 34 in ESTS.py
-add the proper credential to line 98 in SpeechToText.py
+Next click on the search bar at the top of the window, and type in natural language translation. Right click the service to open in a new tab. Now create the resource and navigate to the manage page.
 
-Gotchas for the code:
-- bluetooth mic/headphones
-- not having web cam
-- websocket client 
-- improper sizing of numpy dimensions 
+![Picture of searching Language Understanding](/images/Picture5.png)
 
-How to run the code  
-Encourage editing and updating of code 
+Repeat the above steps by typing in Natural Language Understanding in the search bar. 
+
+![Picture of looking for natural language understanding](/images/Picture6.png)
+
+After creating the above resources open up ESTS.py and SpeechToText.py. We are now going to add your credentials to the program. Start by navigating to the Speech To Text service and clicking on the copy to clipboard button. 
+
+![Apikey copy button](/images/Picture6.png)
+
+Now open SpeechToText.py and go to line 98 and paste your apikey into the userpass variable value. 
+
+![Placing apikey in SpeechToText.py](/images/Picture7.png)
+
+Next open up the ESTS.py file and copy the apikey from the Language Translator and paste it into the iam_apikey variable value online 29. Repeat the same process for Natural Language Understanding on line 34. 
+
+![ESTS.py credentials](/images/Picture8.png)
+
+Now you are ready to run the code. Here are some problems to look out for:
+- Bluetooth mic/headphones: If you are using bluetooth headphones with a mic, it may interrupt the speech to text feature. 
+- Webcam connection: If a web cam is not attached to your workstation, the code will not run. 
+
+## How to run the Code:  
+
+In the terminal navigate to the directory where ESTS.py is located, and enter to command: `python ESTS.py -l french -w False`.
+
+Supported languages are: Arabic, Czech, Danish, Dutch, Finnish, French, German, Hindi, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian', Simplified Chinese, Spanish, Swedish, Traditional Chinese, Turkish. 
+
+That concludes the tutorial, and read me if you would like to contribute to the code in anyway please do. 
 
 
 
