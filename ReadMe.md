@@ -51,8 +51,6 @@ Next click on the search bar at the top of the window, and type in natural langu
 
 Repeat the above steps by typing in Natural Language Understanding in the search bar. 
 
-![Picture of looking for natural language understanding](/images/Picture6.png)
-
 After creating the above resources open up ESTS.py and SpeechToText.py. We are now going to add your credentials to the program. Start by navigating to the Speech To Text service and clicking on the copy to clipboard button. 
 
 ![Apikey copy button](/images/Picture6.png)
