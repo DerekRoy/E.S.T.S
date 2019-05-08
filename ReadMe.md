@@ -75,7 +75,7 @@ In the terminal navigate to the directory where ESTS.py is located, and enter to
 
 Supported languages are: Arabic, Czech, Danish, Dutch, Finnish, French, German, Hindi, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian', Simplified Chinese, Spanish, Swedish, Traditional Chinese, Turkish. 
 
-That concludes the tutorial, and read me if you would like to contribute to the code in anyway please do. 
+That concludes the tutorial and read me, if you would like to contribute to the code in anyway please do. 
 
 
 
